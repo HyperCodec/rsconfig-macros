@@ -16,7 +16,7 @@ use syn::DeriveInput;
 /// # use rsconfig::*;
 /// # use std::io::{self, Result};
 /// # use std::fs;
-/// 
+///
 /// // FileConfig derive macro being used instead of adding `impl FileConfig for TestConfig {}` at the end
 /// #[derive(Debug, FileConfig)]
 /// struct TestConfig {
