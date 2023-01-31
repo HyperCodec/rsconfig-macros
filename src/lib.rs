@@ -9,6 +9,14 @@ use syn::DeriveInput;
 /// Implements the default empty FileConfig if the required filetypes exist
 /// ### Example
 /// ```rust
+/// # use rsconfig_macros::FileConfig;
+/// # use std::collections::HashMap;
+/// # use serde_json::{self, Value};
+/// # use yaml_rust;
+/// # use rsconfig::*;
+/// # use std::io::{self, Result};
+/// # use std::fs;
+/// 
 /// // FileConfig derive macro being used instead of adding `impl FileConfig for TestConfig {}` at the end
 /// #[derive(Debug, FileConfig)]
 /// struct TestConfig {
@@ -35,7 +43,7 @@ use syn::DeriveInput;
 ///         Self { test: val["test"].as_bool().unwrap() }
 ///     }
 ///
-///     fn save_json(&self, path: &str) -> io::Result<()> {
+///     fn save_json(&self, path: &str) -> Result<()> {
 ///         // convert to json pretty format and save
 ///         let mut m: HashMap<&str, Value> = HashMap::new();
 ///         m.insert("test", Value::from(self.test));
