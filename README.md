@@ -1,7 +1,7 @@
 # RSCONFIG-macros
-[<img alt="github" href="https://img.shields.io/github/last-commit/hypercodec/rsconfig-macros" height="20">](https://github.com/hypercodec/rsconfig-macros)
-[<img alt="crates.io" href="https://img.shields.io/crates/d/rsconfig-macros" height="20">](https://crates.io/crates/rsconfig-macros)
-[<img alt="docs.rs" href="https://img.shields.io/docsrs/rsconfig-macros" height="20">](https://docs.rs/rsconfig-macros)
+[<img alt="github" src="https://img.shields.io/github/last-commit/hypercodec/rsconfig-macros" height="20">](https://github.com/hypercodec/rsconfig-macros)
+[<img alt="crates.io" src="https://img.shields.io/crates/d/rsconfig-macros" height="20">](https://crates.io/crates/rsconfig-macros)
+[<img alt="docs.rs" src="https://img.shields.io/docsrs/rsconfig-macros" height="20">](https://docs.rs/rsconfig-macros)
 
 Macro implementation for RSCONFIG
 
